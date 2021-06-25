@@ -26,7 +26,8 @@
 	left: auto;
 }
 .owl-team-custom.owl-carousel.show-nav-title img {
-	transform-style: unset;
+	-webkit-transform-style: unset;
+					transform-style: unset;
 }
 
 /* Features Box */

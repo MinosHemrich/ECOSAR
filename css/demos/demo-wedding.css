@@ -36,7 +36,8 @@
 }
 
 .box-shadow-custom {
-	box-shadow: 10px 10px 74px -30px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: 10px 10px 74px -30px rgba(0, 0, 0, 0.33);
+					box-shadow: 10px 10px 74px -30px rgba(0, 0, 0, 0.33);
 }
 
 .custom-border-radius {
@@ -80,7 +81,8 @@
 		top: 0;
 		left: 50%;
 		border-top: 1px solid #e1e4e9;
-		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+						transform: translateX(-50%);
 	}
 	#header .header-nav-main nav {
 		display: block;
@@ -92,6 +94,7 @@
 		font-size: 13px;
 		font-style: normal;
 		font-weight: 600;
+		-webkit-transition: ease all 300ms;
 		transition: ease all 300ms;
 	}
 	#header .header-nav-main nav > ul > li > a:hover {
@@ -109,13 +112,15 @@
 		left: 50%;
 		color: #ef3447;
 		line-height: 0;
-		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+						transform: translateX(-50%);
 	}
 }
 @media (max-width: 991px) {
 	html.sticky-header-enabled #header .header-body {
 		border-bottom-color: #e9e9e9;
-		box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+						box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 		position: fixed;
 		top: 0 !important;
 	}
@@ -149,7 +154,8 @@
 	background: #FBF9F3;
 }
 .slider-container.light ul {
-	perspective: 1000px;
+	-webkit-perspective: 1000px;
+					perspective: 1000px;
 }
 .slider-container.light .slider-border {
 	position: absolute;
@@ -185,7 +191,8 @@
 	bottom: -8px;
 	bottom: -0.5rem;
 	right: 13px;
-	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+					transform: rotate(180deg);
 }
 
 .load-more-loader {
@@ -194,7 +201,8 @@
 }
 
 .thumb-bride-groom:hover .bride-groom-photo img {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+					transform: scale(1.1);
 }
 .thumb-bride-groom .bride-groom-bg {
 	position: relative;
@@ -212,7 +220,8 @@
 	width: 125%;
 	height: 100%;
 	z-index: -1;
-	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform: translate3d(-50%, -50%, 0);
+					transform: translate3d(-50%, -50%, 0);
 }
 .thumb-bride-groom .bride-groom-bg.groom-background-style:before {
 	background: url(../../img/demos/wedding/bride-groom/groom-bg.jpg);
@@ -232,11 +241,14 @@
 }
 .thumb-bride-groom .bride-groom-photo img {
 	width: 100%;
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .thumb-bride-groom .social-icons li {
-	box-shadow: none;
+	-webkit-box-shadow: none;
+					box-shadow: none;
 	border: 2px solid #b7b8bc;
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .thumb-bride-groom .social-icons li a {
@@ -265,7 +277,8 @@
 	font-size: 0.7rem;
 	color: #5fc3d2;
 	line-height: 0;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
 }
 .custom-countdown-style-1 > span:nth-child(1):before {
 	content: none;
@@ -324,7 +337,8 @@
 	top: 50%;
 	left: 50%;
 	z-index: -3;
-	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform: translate3d(-50%, -50%, 0);
+					transform: translate3d(-50%, -50%, 0);
 }
 .wedding-schedule .wedding-schedule-photo {
 	height: 185px;
@@ -347,13 +361,15 @@
 	top: 50%;
 	left: 50%;
 	z-index: -1;
-	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform: translate3d(-50%, -50%, 0);
+					transform: translate3d(-50%, -50%, 0);
 }
 .wedding-schedule .icon-heart-white-border {
 	position: absolute;
 	top: 34.7%;
 	left: 50%;
-	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform: translate3d(-50%, -50%, 0);
+					transform: translate3d(-50%, -50%, 0);
 }
 .wedding-schedule span {
 	display: block;
@@ -367,6 +383,7 @@
 }
 
 .history-item .thumb-info .thumb-info-wrapper:after {
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(36, 44, 71, 0.6)), to(transparent)) repeat scroll 0 0 rgba(36, 44, 71, 0);
 	background: linear-gradient(to top, rgba(36, 44, 71, 0.6) 0, transparent 100%) repeat scroll 0 0 rgba(36, 44, 71, 0);
 	content: '';
 	display: block;
@@ -386,7 +403,8 @@
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	box-shadow: 0 0 190px 40px black;
+	-webkit-box-shadow: 0 0 190px 40px black;
+					box-shadow: 0 0 190px 40px black;
 	z-index: 1;
 }
 .history-item .thumb-info .thumb-info-title {
@@ -428,7 +446,8 @@
 #guestbookSendMessage:after {
 	bottom: 15px;
 	left: 15px;
-	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+					transform: rotate(180deg);
 }
 #guestbookSendMessage .form-content {
 	position: relative;
@@ -443,7 +462,8 @@
 	background: none;
 	border: none;
 	border-bottom: 1px solid #b5b5b5;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+					box-shadow: none;
 	padding-left: 0;
 	padding-right: 0;
 }
@@ -477,7 +497,8 @@
 	left: 50%;
 	width: 76%;
 	border-bottom: 1px solid #fed0d2;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+					transform: translateX(-50%);
 }
 .guestbook-messages .testimonial .testimonial-author p {
 	text-align: left;

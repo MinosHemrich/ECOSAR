@@ -5,7 +5,8 @@ h1, h2, h3, h4, h5, h6 {
 .custom-absolute-y-center {
 	position: absolute;
 	top: 50%;
-	transform: translate3d(0, -50%, 0);
+	-webkit-transform: translate3d(0, -50%, 0);
+					transform: translate3d(0, -50%, 0);
 }
 
 .custom-border-color-1 {
@@ -76,7 +77,8 @@ h1, h2, h3, h4, h5, h6 {
 		position: absolute;
 		top: 50%;
 		right: 0;
-		transform: translate3d(0, -50%, 0);
+		-webkit-transform: translate3d(0, -50%, 0);
+						transform: translate3d(0, -50%, 0);
 		max-width: none;
 		width: 47vw;
 	}
@@ -99,7 +101,8 @@ h1, h2, h3, h4, h5, h6 {
 	border-top: 1px solid #212529;
 	border-left: 1px solid #212529;
 	opacity: 0.6;
-	transform: translate3d(0, -50%, 0) rotate(-45deg);
+	-webkit-transform: translate3d(0, -50%, 0) rotate(-45deg);
+					transform: translate3d(0, -50%, 0) rotate(-45deg);
 }
 .custom-icon-left-arrows:after,
 .custom-icon-right-arrows:after {
@@ -111,11 +114,13 @@ h1, h2, h3, h4, h5, h6 {
 	height: 100%;
 	border-top: 1px solid #212529;
 	border-left: 1px solid #212529;
-	transform: translate3d(0, -50%, 0) rotate(-45deg);
+	-webkit-transform: translate3d(0, -50%, 0) rotate(-45deg);
+					transform: translate3d(0, -50%, 0) rotate(-45deg);
 }
 
 .custom-icon-right-arrows {
-	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+					transform: rotateY(180deg);
 }
 
 /* Custom Min Width */
@@ -131,20 +136,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* Custom Play Button */
 .custom-play-button-1 {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
 	display: inline-flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+			-ms-flex-align: center;
+					align-items: center;
+	-webkit-box-pack: center;
+			-ms-flex-pack: center;
+					justify-content: center;
 	width: 100px;
 	height: 100px;
 	border-radius: 100%;
 	background: #FFF;
 	color: #212529;
+	-webkit-transition: ease transform 300ms;
 	transition: ease transform 300ms;
 	font-size: 25.6px;
 	font-size: 1.6rem;
 }
 .custom-play-button-1:hover {
-	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+					transform: scale(1.1);
 }
 
 /* Custom List Styles */

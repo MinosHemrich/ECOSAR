@@ -15,7 +15,8 @@ section.section-color-custom {
 }
 
 .social-icons li {
-	box-shadow: none;
+	-webkit-box-shadow: none;
+					box-shadow: none;
 }
 .social-icons li a {
 	background: transparent;
@@ -43,7 +44,8 @@ section.section-color-custom {
 	left: 50%;
 	border-right: 1px solid #CCC;
 	height: 240%;
-	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform: translate3d(-50%, -50%, 0);
+					transform: translate3d(-50%, -50%, 0);
 }
 
 .google-map {

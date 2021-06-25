@@ -176,7 +176,8 @@ html .scroll-to-top.visible {
 */
 .social-icons.custom-social-icons-style-1 li {
 	margin: 0;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+					box-shadow: none;
 }
 .social-icons.custom-social-icons-style-1 li a {
 	background: transparent !important;
@@ -193,7 +194,8 @@ html .scroll-to-top.visible {
 }
 .social-icons.custom-social-icons-style-2 li {
 	margin: 0;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+					box-shadow: none;
 }
 .social-icons.custom-social-icons-style-2 li a {
 	background: transparent !important;
@@ -224,7 +226,8 @@ html .scroll-to-top.visible {
 * Thumb Info
 */
 .thumb-info.custom-thumb-info-style-1 .thumb-info-wrapper {
-	transform: none;
+	-webkit-transform: none;
+					transform: none;
 }
 .thumb-info.custom-thumb-info-style-1 .thumb-info-wrapper:after {
 	background-color: rgba(1, 159, 220, 0.8);
@@ -242,7 +245,8 @@ html .scroll-to-top.visible {
 	border: none;
 }
 .thumb-info.custom-thumb-info-style-2 .thumb-info-wrapper:not(._rounded) {
-	transform: none;
+	-webkit-transform: none;
+					transform: none;
 }
 .thumb-info.custom-thumb-info-style-2 .thumb-info-wrapper:after {
 	content: none;
@@ -346,6 +350,7 @@ html .scroll-to-top.visible {
 	background: transparent !important;
 	font-weight: 100;
 	color: #FFF !important;
+	-webkit-transition: ease color 300ms;
 	transition: ease color 300ms;
 }
 @media (min-width: 992px) and (max-width: 1060px) {
@@ -405,7 +410,8 @@ html.sticky-header-active #header .header-body {
 		right: 0;
 		border-right: 1px solid #5b5d61;
 		height: 100%;
-		transform: translate(0, -50%);
+		-webkit-transform: translate(0, -50%);
+						transform: translate(0, -50%);
 	}
 	.custom-divider-1._left:after {
 		right: auto;
@@ -419,7 +425,8 @@ html.sticky-header-active #header .header-body {
 	position: relative;
 	border-radius: 100%;
 	border: 7px solid #FFF;
-	box-shadow: 0px 7px 60px -15px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 7px 60px -15px rgba(0, 0, 0, 0.5);
+					box-shadow: 0px 7px 60px -15px rgba(0, 0, 0, 0.5);
 	z-index: 2;
 }
 @media (min-width: 767px) {
@@ -466,7 +473,8 @@ svg#curved-line-1 .path, svg#curved-line-1 .circle {
 @media (min-width: 992px) and (max-width: 1199px) {
 	svg#curved-line-1 {
 		width: 107.4%;
-		transform: scale(1.13);
+		-webkit-transform: scale(1.13);
+						transform: scale(1.13);
 	}
 }
 
@@ -505,7 +513,8 @@ svg#curved-line-1 .path, svg#curved-line-1 .circle {
 	position: absolute;
 	left: 10%;
 	bottom: 0;
-	box-shadow: 0px 7px 60px -15px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 7px 60px -15px rgba(0, 0, 0, 0.5);
+					box-shadow: 0px 7px 60px -15px rgba(0, 0, 0, 0.5);
 }
 .custom-image-style-2._big {
 	width: 90%;
@@ -574,7 +583,8 @@ svg#curved-line-2 .circle {
 	border-top: 2px solid #1e1e1e;
 	top: -15px;
 	left: 50%;
-	transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+					transform: translate(-50%, 0);
 }
 
 /*
@@ -582,8 +592,12 @@ svg#curved-line-2 .circle {
 */
 @media (min-width: 445px) {
 	.custom-center-pills {
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: center;
+		-webkit-box-pack: center;
+				-ms-flex-pack: center;
+						justify-content: center;
 	}
 }
 
@@ -595,6 +609,7 @@ svg#curved-line-2 .circle {
 	color: #1e1e1e;
 	font-size: 12px;
 	font-weight: 500;
+	-webkit-transition: ease color 300ms;
 	transition: ease color 300ms;
 }
 .custom-nav-filter li.active > a, .custom-nav-filter li:hover > a {
@@ -667,12 +682,14 @@ svg#curved-line-2 .circle {
 	top: 0;
 	width: calc(100% + 90px);
 	border-top: 1px solid #5a5a5a;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+					transform: translateX(-50%);
 }
 .custom-contact-form-style-1 .form-control {
 	background: transparent;
 	border: none;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+					box-shadow: none;
 	padding: 25px 0;
 	color: #777;
 	resize: none;
@@ -699,7 +716,8 @@ svg#curved-line-2 .circle {
 	letter-spacing: 1.5px;
 }
 .custom-contact-form-style-1 .form-control.error {
-	box-shadow: none;
+	-webkit-box-shadow: none;
+					box-shadow: none;
 }
 .custom-contact-form-style-1 input.form-control {
 	height: 50px;
@@ -711,7 +729,8 @@ svg#curved-line-2 .circle {
 }
 .custom-contact-form-style-1 .custom-textarea-style {
 	margin: 10px 0 10px 0;
-	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+					box-sizing: content-box;
 	padding: 6px 34px 6px 0 !important;
 }
 .custom-contact-form-style-1 .custom-textarea-style::-webkit-scrollbar-track {

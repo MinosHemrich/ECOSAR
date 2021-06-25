@@ -12,7 +12,8 @@
 	#header.header-narrow .header-logo .logo-small {
 		-webkit-backface-visibility: hidden;
 						backface-visibility: hidden;
-		transform: translate3d(87px, 0, 0);
+		-webkit-transform: translate3d(87px, 0, 0);
+						transform: translate3d(87px, 0, 0);
 		position: absolute;
 		z-index: 1;
 		opacity: 0;
@@ -27,7 +28,8 @@
 	}
 
 	.sticky-header-active #header.header-narrow .header-logo .logo-small {
-		transform: translate3d(0, 0, 0);
+		-webkit-transform: translate3d(0, 0, 0);
+						transform: translate3d(0, 0, 0);
 		opacity: 1;
 		z-index: 3;
 		margin: 12px 12px 12px 0;
@@ -67,8 +69,12 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 
 @media (min-width: 992px) {
 	html #header.header-semi-transparent-light .header-body {
+		-webkit-transition: -webkit-transform 0.3s ease;
+		transition: -webkit-transform 0.3s ease;
 		transition: transform 0.3s ease;
-		transform: translate3d(0, 25px, 0);
+		transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+		-webkit-transform: translate3d(0, 25px, 0);
+						transform: translate3d(0, 25px, 0);
 		border: 0;
 	}
 	html #header.header-semi-transparent-light .header-body:before {
@@ -88,7 +94,8 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 		border-color: #FFF transparent transparent transparent;
 	}
 	html.sticky-header-active #header.header-semi-transparent-light .header-body {
-		transform: translate3d(0, 0, 0);
+		-webkit-transform: translate3d(0, 0, 0);
+						transform: translate3d(0, 0, 0);
 	}
 
 	html.ie9 #header.header-narrow .header-nav.header-nav-stripe nav > ul > li.dropdown .dropdown-menu, html.ie9 #header.header-narrow .header-nav.header-nav-stripe nav > ul > li.dropdown:hover .dropdown-menu, html.ie9 #header.header-narrow .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown .dropdown-menu, html.ie9 #header.header-narrow .header-nav.header-nav-dropdowns-dark nav > ul > li.dropdown:hover .dropdown-menu {
@@ -96,7 +103,8 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 	}
 }
 .social-icons li {
-	box-shadow: none;
+	-webkit-box-shadow: none;
+					box-shadow: none;
 }
 .social-icons li a {
 	background: transparent;
@@ -122,13 +130,15 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 	z-index: 1;
 }
 .tparrows:after {
+	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	background: #000 none repeat scroll 0 0;
 	opacity: 0.2;
 	height: 40px;
 	margin: -40px 0 0;
 	position: relative;
-	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+					transform: rotate(-45deg);
 	width: 40px;
 	content: "";
 	display: block;
@@ -168,9 +178,11 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 	text-decoration: none;
 	width: 255px;
 	overflow: hidden;
-	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+					transform: rotate(-45deg);
 }
 .diamonds .diamond:after {
+	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	content: " ";
 	width: 100%;
@@ -180,28 +192,33 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 	left: 0;
 	background: #000;
 	opacity: 0;
-	transform: scale(0);
+	-webkit-transform: scale(0);
+					transform: scale(0);
 	z-index: 100;
 }
 .diamonds .diamond:hover:after {
 	opacity: 0.3;
-	transform: scale(1);
+	-webkit-transform: scale(1);
+					transform: scale(1);
 }
 .diamonds .diamond:hover .content:after {
 	opacity: 0.8;
-	transform: scale(1);
+	-webkit-transform: scale(1);
+					transform: scale(1);
 }
 .diamonds .content {
 	display: table-cell;
 	height: 255px;
 	padding: 0 10px;
-	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+					transform: rotate(45deg);
 	text-align: center;
 	vertical-align: middle;
 	width: 255px;
 	position: relative;
 }
 .diamonds .content:after {
+	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	color: #fff;
 	content: "\e091";
@@ -213,7 +230,8 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 	position: absolute;
 	top: 50%;
 	z-index: 1000;
-	transform: scale(2);
+	-webkit-transform: scale(2);
+					transform: scale(2);
 }
 .diamonds .content img {
 	max-width: 375px;
@@ -333,7 +351,8 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 	height: 200px;
 	position: absolute;
 	right: 0;
-	transform: rotate(50deg);
+	-webkit-transform: rotate(50deg);
+					transform: rotate(50deg);
 	width: 200px;
 	z-index: 1;
 }
@@ -344,7 +363,8 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 	height: 200px;
 	position: absolute;
 	right: 75px;
-	transform: rotate(50deg);
+	-webkit-transform: rotate(50deg);
+					transform: rotate(50deg);
 	width: 200px;
 	z-index: 2;
 }
@@ -362,7 +382,8 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 		height: 200px;
 		left: 25px;
 		position: absolute;
-		transform: rotate(50deg);
+		-webkit-transform: rotate(50deg);
+						transform: rotate(50deg);
 		width: 200px;
 		z-index: 1;
 	}
@@ -476,7 +497,8 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 		height: 400px;
 		position: absolute;
 		right: -177px;
-		transform: rotate(50deg);
+		-webkit-transform: rotate(50deg);
+						transform: rotate(50deg);
 		width: 400px;
 		z-index: 1;
 	}

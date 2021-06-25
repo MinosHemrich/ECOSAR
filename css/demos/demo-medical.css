@@ -1,5 +1,6 @@
 .box-shadow-custom {
-	box-shadow: 10px 10px 74px -15px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: 10px 10px 74px -15px rgba(0, 0, 0, 0.33);
+					box-shadow: 10px 10px 74px -15px rgba(0, 0, 0, 0.33);
 }
 
 .custom-button {
@@ -38,7 +39,8 @@
 	height: 6px;
 	background: #fff;
 	border-radius: 100%;
-	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+					transform: translateX(-50%) translateY(-50%);
 }
 
 .medical-schedules {
@@ -102,9 +104,11 @@
 }
 .medical-schedules .box-two:hover .expanded-info .info, .medical-schedules .box-three:hover .expanded-info .info {
 	opacity: 1;
-	transform: translateY(0%);
+	-webkit-transform: translateY(0%);
+					transform: translateY(0%);
 }
 .medical-schedules .box-two:hover i, .medical-schedules .box-three:hover i {
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .medical-schedules .box-two .expanded-info, .medical-schedules .box-three .expanded-info {
@@ -113,21 +117,27 @@
 	left: 0;
 	bottom: 99%;
 	width: 100%;
-	box-shadow: 0 -12px 30px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 -12px 30px rgba(0, 0, 0, 0.2);
+					box-shadow: 0 -12px 30px rgba(0, 0, 0, 0.2);
 	z-index: -1;
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .medical-schedules .box-two .expanded-info .info, .medical-schedules .box-three .expanded-info .info {
 	opacity: 0;
-	transform: translateY(-40%);
+	-webkit-transform: translateY(-40%);
+					transform: translateY(-40%);
 }
 .medical-schedules .box-two .expanded-info .info:nth-child(1), .medical-schedules .box-three .expanded-info .info:nth-child(1) {
+	-webkit-transition: all 0.3s ease 0.4s;
 	transition: all 0.3s ease 0.4s;
 }
 .medical-schedules .box-two .expanded-info .info:nth-child(2), .medical-schedules .box-three .expanded-info .info:nth-child(2) {
+	-webkit-transition: all 0.3s ease 0.5s;
 	transition: all 0.3s ease 0.5s;
 }
 .medical-schedules .box-two .expanded-info .info:nth-child(3), .medical-schedules .box-three .expanded-info .info:nth-child(3) {
+	-webkit-transition: all 0.3s ease 0.6s;
 	transition: all 0.3s ease 0.6s;
 }
 .medical-schedules .box-two i, .medical-schedules .box-three i {
@@ -135,19 +145,24 @@
 	top: 50%;
 	right: -30px;
 	font-size: 1.44em;
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .medical-schedules .box-two:hover i {
-	transform: translateY(-50%) translateX(50%);
+	-webkit-transform: translateY(-50%) translateX(50%);
+					transform: translateY(-50%) translateX(50%);
 }
 .medical-schedules .box-two i {
-	transform: translateY(-50%) translateX(0%);
+	-webkit-transform: translateY(-50%) translateX(0%);
+					transform: translateY(-50%) translateX(0%);
 }
 .medical-schedules .box-three:hover i {
-	transform: translateY(-50%) rotate(-90deg);
+	-webkit-transform: translateY(-50%) rotate(-90deg);
+					transform: translateY(-50%) rotate(-90deg);
 }
 .medical-schedules .box-three i {
-	transform: translateY(-50%) rotate(0deg);
+	-webkit-transform: translateY(-50%) rotate(0deg);
+					transform: translateY(-50%) rotate(0deg);
 }
 .medical-schedules .box-four label {
 	display: block;
@@ -206,6 +221,7 @@
 	padding: 10px 0;
 	display: block;
 	background: #fff;
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .team .thumb-info .thumb-info-caption .custom-thumb-info-title span {
@@ -223,7 +239,8 @@
 	right: 20px;
 	font-size: 1.9em !important;
 	color: #28292d;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
 }
 .team .owl-carousel.nav-bottom .owl-nav {
 	position: absolute;
@@ -264,6 +281,7 @@
 	border: 0 none;
 	color: #777;
 	margin: 0 0 35px;
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .thumb-info-side-image-custom .thumb-info-side-image-wrapper {
@@ -284,7 +302,8 @@
 	line-height: 24px;
 }
 .thumb-info-side-image-custom:hover {
-	box-shadow: 10px 10px 74px -15px rgba(0, 0, 0, 0.33) !important;
+	-webkit-box-shadow: 10px 10px 74px -15px rgba(0, 0, 0, 0.33) !important;
+					box-shadow: 10px 10px 74px -15px rgba(0, 0, 0, 0.33) !important;
 }
 .thumb-info-side-image-custom.thumb-info-side-image-custom-highlight .thumb-info-side-image-wrapper {
 	margin: 0 0 10px 0;
@@ -355,7 +374,8 @@
 	border: 1px solid #fff;
 	border-radius: 100%;
 	padding: 25px;
-	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+					transform: translateX(-50%) translateY(-50%);
 }
 .testimonial blockquote::before, .testimonial blockquote::after {
 	color: #fff !important;
@@ -380,7 +400,8 @@
 	top: -21px;
 	left: 50%;
 	border-top: 2px solid #80c9f2;
-	transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+					transform: translateX(-50%) translateY(-50%);
 }
 
 #footer {
@@ -411,7 +432,8 @@
 
 .social-icons li {
 	border-radius: 0;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+					box-shadow: none;
 }
 .social-icons li:hover a {
 	opacity: 0.8;

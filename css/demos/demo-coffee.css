@@ -29,22 +29,26 @@ p, a, span, li, strong, b {
 @-webkit-keyframes customFadeInRightShorter {
 	from {
 		opacity: 0;
-		transform: translate(-50px, -50%);
+		-webkit-transform: translate(-50px, -50%);
+						transform: translate(-50px, -50%);
 	}
 	to {
 		opacity: 0.1;
-		transform: translate(0, -50%);
+		-webkit-transform: translate(0, -50%);
+						transform: translate(0, -50%);
 	}
 }
 
 @keyframes customFadeInRightShorter {
 	from {
 		opacity: 0;
-		transform: translate(-50px, -50%);
+		-webkit-transform: translate(-50px, -50%);
+						transform: translate(-50px, -50%);
 	}
 	to {
 		opacity: 0.1;
-		transform: translate(0, -50%);
+		-webkit-transform: translate(0, -50%);
+						transform: translate(0, -50%);
 	}
 }
 .customFadeInRightShorter {
@@ -86,8 +90,12 @@ p, a, span, li, strong, b {
 }
 
 .custom-menu-item .custom-menu-item-details {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: between;
+	-webkit-box-pack: between;
+			-ms-flex-pack: between;
+					justify-content: between;
 }
 .custom-menu-item .custom-menu-item-details .custom-menu-item-title,
 .custom-menu-item .custom-menu-item-details .custom-menu-item-price {
@@ -129,7 +137,8 @@ p, a, span, li, strong, b {
 	border-radius: 10px 0 0 10px;
 	background: #CCC;
 	opacity: 0.1;
-	transform: translate3d(0, -50%, 0);
+	-webkit-transform: translate3d(0, -50%, 0);
+					transform: translate3d(0, -50%, 0);
 }
 
 @media (max-width: 991px) {
@@ -150,7 +159,8 @@ p, a, span, li, strong, b {
 	border-radius: 0 10px 10px 0;
 	background: #212529;
 	opacity: 0.6;
-	transform: translate3d(0, -50%, 0);
+	-webkit-transform: translate3d(0, -50%, 0);
+					transform: translate3d(0, -50%, 0);
 	z-index: -1;
 }
 

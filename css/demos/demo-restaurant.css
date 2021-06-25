@@ -2,7 +2,8 @@
 .thumb-info .thumb-info-custom-icon {
 	width: auto;
 	margin: -30px auto 0;
-	transform: none !important;
+	-webkit-transform: none !important;
+					transform: none !important;
 }
 
 /* Custom Divider */
@@ -54,7 +55,8 @@
 	left: 0;
 	width: 100%;
 	display: block;
-	transform: translate3d(0, -50%, 0);
+	-webkit-transform: translate3d(0, -50%, 0);
+					transform: translate3d(0, -50%, 0);
 }
 .thumb-info.thumb-info-centered-icons .thumb-info-action-custom a {
 	display: block;

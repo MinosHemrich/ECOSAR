@@ -18,7 +18,8 @@
 }
 
 .box-shadow-custom {
-	box-shadow: 10px 10px 74px -15px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: 10px 10px 74px -15px rgba(0, 0, 0, 0.33);
+					box-shadow: 10px 10px 74px -15px rgba(0, 0, 0, 0.33);
 }
 
 .custom-list-style-1 li {
@@ -31,7 +32,8 @@
 	position: absolute;
 	top: 50%;
 	left: -15px;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
 }
 
 .custom-list-item-disabled {
@@ -62,7 +64,8 @@
 	position: absolute;
 	top: 50%;
 	left: 96.8%;
-	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform: translate3d(-50%, -50%, 0);
+					transform: translate3d(-50%, -50%, 0);
 	z-index: 21;
 	width: 5%;
 	font-size: 2.6em;
@@ -75,7 +78,8 @@
 	left: 50%;
 	width: 120%;
 	border-bottom: 1px solid #FFF;
-	transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+	-webkit-transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+					transform: translate3d(-50%, -50%, 0) rotate(-45deg);
 }
 .rev_slider .slides-number span {
 	display: block;
@@ -104,7 +108,8 @@
 	left: 50%;
 	line-height: 0;
 	font-weight: 900;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+					transform: translateX(-50%);
 }
 .rev_slider .tparrows:after {
 	content: '';
@@ -114,7 +119,8 @@
 	left: 50%;
 	height: 25px;
 	border-left: 1px solid #FFF;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+					transform: translateX(-50%);
 }
 .rev_slider .tparrows.tp-rightarrow:before {
 	content: '\f0d7';
@@ -125,7 +131,8 @@
 .rev_slider .tparrows.tp-rightarrow:after {
 	bottom: 0;
 	top: auto;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+					transform: translateX(-50%);
 }
 
 @media (max-width: 991px) {
@@ -142,10 +149,12 @@
 	list-style: none;
 }
 .properties-listing .listing-item {
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .properties-listing .listing-item:hover {
-	box-shadow: 10px 8px 44px -15px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: 10px 8px 44px -15px rgba(0, 0, 0, 0.33);
+					box-shadow: 10px 8px 44px -15px rgba(0, 0, 0, 0.33);
 }
 .properties-listing .listing-item:hover .thumb-info .thumb-info-price i:after {
 	width: 60px;
@@ -172,7 +181,9 @@
 	right: 0;
 	width: 40px;
 	border-bottom: 1px solid #219cd2;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+					transform: translateY(-50%);
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .properties-listing .listing-item .thumb-info .custom-thumb-info-title {
@@ -210,6 +221,7 @@
 	padding: 8px;
 }
 .thumb-info-side-image .thumb-info-side-image-wrapper img {
+	-webkit-transition: none;
 	transition: none;
 }
 .thumb-info-side-image .thumb-info-caption p {
@@ -224,9 +236,11 @@
 	margin-bottom: 30px;
 }
 .special-offer-item:hover img {
-	transform: scale(1.1, 1.1);
+	-webkit-transform: scale(1.1, 1.1);
+					transform: scale(1.1, 1.1);
 }
 .special-offer-item img {
+	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
 .special-offer-item .special-offer-wrapper {
@@ -235,7 +249,8 @@
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
 					backface-visibility: hidden;
-	transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+					transform: translate3d(0, 0, 0);
 }
 .special-offer-item .special-offer-wrapper:before {
 	content: '';
@@ -254,7 +269,8 @@
 	left: 50%;
 	width: 100%;
 	z-index: 2;
-	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);
 }
 .special-offer-item .special-offer-wrapper .special-offer-infos span {
 	display: block;
@@ -285,13 +301,15 @@
 	width: 95%;
 	height: 95%;
 	border: 1px solid #5a71a0;
-	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform: translate3d(-50%, -50%, 0);
+					transform: translate3d(-50%, -50%, 0);
 }
 .agents .agents-content {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate3d(-50%, -50%, 0);
+	-webkit-transform: translate3d(-50%, -50%, 0);
+					transform: translate3d(-50%, -50%, 0);
 }
 .agents .owl-carousel .owl-item .agent-thumb {
 	display: inline-block;
@@ -299,7 +317,8 @@
 }
 .agents .owl-carousel .owl-item .agent-thumb img {
 	border: 7px solid #FFF;
-	box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.3);
+					box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.3);
 }
 .agents .owl-carousel .owl-item .agent-infos {
 	display: block;
